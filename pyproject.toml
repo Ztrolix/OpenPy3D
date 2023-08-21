@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "OpenPy3d_Ztrolix"
+version = "0.0.1"
+authors = [
+  { name="Ztrolix", email="xdpxigamer@gmail.com" },
+]
+description = "OpenPy3D Is a Python PIP package that you can create 3D objects in Python really easy with."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GPL-3.0 license",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Ztrolix/OpenPy3D/"
+"Bug Tracker" = "https://github.com/Ztrolix/OpenPy3D/issues"

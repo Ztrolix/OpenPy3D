@@ -37,8 +37,10 @@ from OpenGL.GL import *
 from OpenGL.GLU import *  # Import gluPerspective from here
 from OpenGL.GLUT import *
 
-def generate3D(title,screenWidth,screenHeight,):
-
+#generate3D("Custom",1000,600,100,100,100,"red")
+def generate3D(title,screenWidth,screenHeight,shapeWidth,shapeHeight,shapeLength,shapeColor):
+    
+#generateCubePlus(1000,600)
 def generateCubePlus(screenWidth,screenHeight):
     pygame.init()
     width, height = screenWidth, screenHeight

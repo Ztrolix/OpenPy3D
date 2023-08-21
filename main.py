@@ -20,13 +20,6 @@ from tqdm import tqdm_notebook as tqdmnote
 
 os.system("scripts\\updater.bat")
 
-print("Loading Projects...")
-for i in tqdm (range (random.randint(1, 50))):
-    time.sleep(random.uniform(0.1, 1.1))
-print("Loading Scripts...")
-for i in tqdm (range (random.randint(10, 100))):
-    time.sleep(random.uniform(0.1, 1.1))
-
 # Function to display a message box
 def cube():
     messagebox.showinfo("OpenPy3D - Cube", "Generatin0g cube...")
@@ -67,7 +60,6 @@ def custom():
     os.system("scripts\\console.py")
 
 def new():
-    messagebox.showinfo("OpenPy3D - New Projects", "Loading...")
     os.system("scripts\\new.py")
 def open():
     messagebox.showinfo("OpenPy3D - Open Projects", "Loading Projects...")

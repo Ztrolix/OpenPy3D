@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: OpenPy3d-Ztrolix
+Version: 0.0.1
+Summary: OpenPy3D Is a Python PIP package that you can create 3D objects in Python really easy with.
+Home-page: https://github.com/Ztrolix/OpenPy3D
+Author: Ztrolix
+Author-email: Ztrolix <xdpxigamer@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/Ztrolix/OpenPy3D/
+Project-URL: Bug Tracker, https://github.com/Ztrolix/OpenPy3D/issues
+Keywords: starter,package,template
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GPL-3.0 license
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# OpenPy3D ![Logo](https://raw.githubusercontent.com/Ztrolix/OpenPy3D/main/assets/icon_2.png)
+OpenPy3D Is a Python PIP package that you can create 3D objects in Python really easy with.

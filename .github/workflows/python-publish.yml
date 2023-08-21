@@ -48,6 +48,12 @@ jobs:
         pip install charset-normalizer --user
         pip install logging --user
         pip install noise --user
+        pip install numba --user
+        pip install moderngl --user
+        pip install numpy --user
+        pip install PyGLM --user
+        pip install opensimplex --user
+        pip install ursina --user
     - name: Build package
       run: python -m build
     - name: Publish package
